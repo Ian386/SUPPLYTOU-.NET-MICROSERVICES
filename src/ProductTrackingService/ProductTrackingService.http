@@ -1,0 +1,6 @@
+@ProductTrackingService_HostAddress = http://localhost:5250
+
+GET {{ProductTrackingService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

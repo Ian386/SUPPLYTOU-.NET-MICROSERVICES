@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "hL+vNn4kaHpw7acpKLXCJ3kCKqutVbW+ayLaYBp3PF8=",
+  "Source": "ProductTrackingService",
+  "BasePath": "_content/ProductTrackingService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
