@@ -155,3 +155,23 @@ Each service uses its **own SQL Server database**, with no direct sharing of sch
 ```http
 Authorization: Bearer {your-token-here}
 
+## 🚀 Getting Started
+
+### 🔧 Prerequisites
+
+Before running the services, make sure you have the following installed:
+
+- [.NET 7 SDK](https://dotnet.microsoft.com/en-us/download)
+- SQL Server (LocalDB, full instance, or Docker)
+- [Postman](https://www.postman.com/) or access to Swagger UI for testing APIs
+
+---
+
+### ▶️ Run Services Individually
+
+Open a terminal and run each service in a separate window:
+
+```bash
+cd src/UserService
+dotnet run
+
