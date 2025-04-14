@@ -145,16 +145,6 @@ Each service uses its **own SQL Server database**, with no direct sharing of sch
 
 ---
 
-## 🔐 Authentication & Authorization
-
-- **Implemented via ASP.NET Core Identity**
-- **JWT** is issued by the `/api/auth/login` endpoint
-- Roles enforced via `[Authorize(Roles = "Farmer")]` etc.
-- Include JWT in the `Authorization` header:
-
-```http
-Authorization: Bearer {your-token-here}
-
 ## 🚀 Getting Started
 
 ### 🔧 Prerequisites
@@ -174,4 +164,15 @@ Open a terminal and run each service in a separate window:
 ```bash
 cd src/UserService
 dotnet run
+
+
+## 🔐 Authentication & Authorization
+
+- **Implemented via ASP.NET Core Identity**
+- **JWT** is issued by the `/api/auth/login` endpoint
+- Roles enforced via `[Authorize(Roles = "Farmer")]` etc.
+- Include JWT in the `Authorization` header:
+
+```http
+Authorization: Bearer {your-token-here}
 
